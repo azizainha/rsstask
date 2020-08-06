@@ -1,0 +1,148 @@
+
+body{
+  font-family: 'Varela Round', sans-serif;
+  padding: 0;
+  margin: 0;
+  color: rgba(0,0,0,0.6);
+  line-height: 1.5;
+  text-align:justify;
+  max-width:1020;
+}
+
+
+.logo {
+	color: #ffffff;
+	display: inline;
+	font-size:28px;
+	font-weight:oblique;
+}
+
+b{
+  color: #f06c64;
+}
+
+.header{
+  padding: 30px 70px;
+  background-color: #2d303a;
+
+}
+
+.navbar{
+
+  float: right;
+  display:inline;
+  /**font-size: 12px;
+  line-height: 10px;
+  color: #f06c64;
+font-weight: 700;
+font-family: "Lato";
+word-spacing:20px;**/
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+ display: inline-block;
+ padding-left: 30px;
+ padding-top: 10px;
+ color: white;
+}
+
+li a, li a:hover{
+  text-decoration: none;
+  color: white;
+}
+li a:hover{
+  color: #f06c64;
+}
+
+
+.slider{
+  height: 600px;
+  background-color: #ef6c64;
+  
+}
+
+.Slides img {
+    width: 60%;
+	height: 50%;
+	margin-left: auto;
+	margin-right: auto;
+    display: block;}
+
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: #666d89;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  padding-top: 25px:
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.texts{
+  margin: 0 70px;
+}
+
+.circledIcon{
+  height: 72px;
+  width: 72px;
+  border: 2px solid rgb(0,0,0);
+  opacity: 0.5;
+  border-radius: 50%;
+  float: left;
+
+}
+
+.circledIcon1{
+  height: 40px;
+  width: 37px;
+  padding: 17px;
+  float: left;
+}
+
+.description{
+  padding-left: 102px;
+  padding-right: 30px;
+}
+
+.description h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.description p {
+  margin-top: 10px;
+
+}
+
+.columns{
+  padding: 10px 0;  
+  float: left;
+  width: 33.33%;
+}
+
+.aaa{
+margin: 50px 40px 400px 70px;
+}
